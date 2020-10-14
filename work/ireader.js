@@ -2,11 +2,11 @@ const sign = function () {
   app.startActivity({
     packageName: 'com.chaozh.iReaderFree',
     className: 'com.zhangyue.iReader.bookshelf.ui.ActivityBookShelf',
-    data: 'https://ah2.zhangyue.com/zycl/sign/index?ca=Welfare.Index&launch=newpage&needAppendArg=0',
+    data: 'https://ah2.zhangyue.com/zycl/newsign/index?launch=newpage&needAppendArg=0',
     root: true
 
   });
-  sleep(8000);
+  sleep(13000);
   if (id("sign").exists()) {
     id("sign").findOne().click();
     sleep(5000);
