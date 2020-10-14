@@ -1,12 +1,12 @@
-const wsgw = require('wsgw.js');
-const relx = require('relx.js');
-const xmyd = require('xmyd.js');
-const aliyun = require('aliyun2.js');
-const geekTime = require('geektime.js');
-const devdown = require('devdown.js');
-const ireader = require('ireader.js');
-const lagou = require('lagou.js');
-const unionpay = require('unionpay.js');
+const wsgw = require('./lib/wsgw.js');
+const relx = require('./lib/relx.js');
+const xmyd = require('./lib/xmyd.js');
+const aliyun = require('./lib/aliyun2.js');
+const geekTime = require('./lib/geektime.js');
+const devdown = require('./lib/devdown.js');
+const ireader = require('./lib/ireader.js');
+const lagou = require('./lib/lagou.js');
+const unionpay = require('./lib/unionpay.js');
 
 // sleep(5000);
 // aliyun();
