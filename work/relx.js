@@ -9,7 +9,7 @@ const sign = function () {
   id('recycle_view').findOne().children().forEach(child => {
     let target = child.findOne(id('tv_card'));
     if (target) {
-      if (target.text() == '打卡领嗨币') {
+      if (target.text() != '探索更多福利') {
         target.click();
       } else {
         log(target.text());

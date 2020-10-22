@@ -13,13 +13,10 @@ const sign = function () {
   }
 
   if (text('免费抽奖').exists()) {
-    //  console.show();
-    //  console.log(text('免费抽奖').findOne().parent())
     text('免费抽奖').findOne().parent().click();
     for (let i = 0; i < 3; i++) {
       sleep(5000);
       if (id('start').exists()) {
-        log(id('start').findOne())
         id('start').findOne().click();
         sleep(5000);
         if (id('mask').exists()) {
