@@ -10,8 +10,6 @@ const sign = function () {
   if (id("sign").exists()) {
     id("sign").findOne().click();
     sleep(5000);
-  } else {
-    log('ireader签到失败！');
   }
 
   if (text('免费抽奖').exists()) {
