@@ -12,7 +12,8 @@ const sign = function () {
       if (target.text() != '探索更多福利') {
         target.click();
       } else {
-        log(target.text());
+
+        log('RELX签到失败，当前text为：', target.text());
       }
     }
   });

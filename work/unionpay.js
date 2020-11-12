@@ -8,6 +8,8 @@ const sign = function () {
   if (text('立即签到').exists()) {
     let b = text('立即签到').findOne().bounds();
     click(b.centerX(), b.centerY());
+  } else {
+    log('云闪付签到失败！');
   }
   sleep(3000);
   home();

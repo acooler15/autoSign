@@ -25,6 +25,8 @@ const sign = function () {
   if (id('im_view_signin').exists()) {
     id('im_view_signin').findOne().click();
     sleep(10000);
+  } else {
+    log('网上国网签到失败');
   }
   if (className('android.widget.Image').text('rightoff').exists()) {
     className('android.widget.Image').text('rightoff').findOne().click();

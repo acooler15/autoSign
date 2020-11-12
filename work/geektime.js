@@ -14,6 +14,8 @@ const sign = function () {
     sleep(5000);
     if (id('iv_close').exists()) {
       id('iv_close').findOne().click();
+    } else {
+      log('极客时间签到失败！');
     }
   }
   sleep(3000);
