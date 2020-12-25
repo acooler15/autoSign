@@ -1,4 +1,4 @@
-const work = require('./work/index.js');
+const work = require('./work');
 const devdown = require('./devdown');
 
 console.clear();

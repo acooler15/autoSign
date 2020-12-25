@@ -4,7 +4,7 @@ const sign = function () {
   home();
   sleep(3000);
   shell('am force-stop org.geekbang.geekTime', true);
-
+  sleep(5000);
   app.launch('org.geekbang.geekTime');
 
   iv_close();
