@@ -1,8 +1,15 @@
 const sign = function () {
   app.launch('org.geekbang.geekTime');
+  sleep(3000);
+  home();
+  sleep(3000);
+  shell('am force-stop org.geekbang.geekTime', true);
+
+  app.launch('org.geekbang.geekTime');
+
   iv_close();
 
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 3; i++) {
     sleep(5000);
     if (id('rl_icon').exists()) {
       //log(id('rl_icon').findOne());
