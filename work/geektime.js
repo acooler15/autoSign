@@ -1,10 +1,10 @@
 const sign = function () {
   app.launch('org.geekbang.geekTime');
-  sleep(3000);
+  sleep(10000);
   home();
-  sleep(3000);
-  shell('am force-stop org.geekbang.geekTime', true);
   sleep(5000);
+  shell('am force-stop org.geekbang.geekTime', true);
+  sleep(10000);
   app.launch('org.geekbang.geekTime');
 
   iv_close();
