@@ -6,5 +6,6 @@ module.exports = {
   unionpay: require('./unionpay'),
   relx: require('./relx'),
   xmyd: require('./xmyd'),
-  ireader: require('./ireader')
+  ireader: require('./ireader'),
+  jdreader: require('./jdreader'),
 }
