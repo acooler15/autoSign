@@ -11,9 +11,9 @@ const sign = function () {
 
   for (let i = 0; i < 3; i++) {
     sleep(5000);
-    if (id('rl_icon').exists()) {
-      //log(id('rl_icon').findOne());
-      id('rl_icon').findOne().click();
+    if (id('rl_shake').exists()) {
+      //log(id('rl_shake').findOne());
+      id('rl_shake').findOne().click();
       iv_close();
     } else {
       log('极客时间签到失败！');

@@ -1,5 +1,5 @@
 module.exports = {
-  aliyun: require('./aliyun2'),
+  //aliyun: require('./aliyun2'),
   geekTime: require('./geektime'),
   lagou: require('./lagou'),
   wsgw: require('./wsgw'),
