@@ -2,7 +2,7 @@ const sign = function () {
   shell('am force-stop com.lagou.education', true);
   sleep(3000);
   app.launch('com.lagou.education');
-  sleep(6000);
+  sleep(10000);
   home();
   sleep(3000);
   shell('am force-stop com.lagou.education', true);
